@@ -1,8 +1,13 @@
-function [pop, run_data] = run_neat( cfg )
-%%RUN_NEAT NEAT algorithm. 
+%% RUN_NEAT - HA-NEAT algorithm, which produces heterogeneous feed forward neural networks
 % Default configuration is defined in default_params.m
 % Returns the population and gathered experimental data
 
+% Author: Alexander Hagg
+% Bonn-Rhein-Sieg University of Applied Sciences (HBRS)
+% email: alexander.hagg@h-brs.de
+% Jan 2017; Last revision: 30-Mar-2017
+
+function [pop, run_data] = run_neat( cfg )
 %% Initialize Population and run first evaluation
 [pop, innovation] = init_population(cfg);
 species = []; genArr = []; cfg.gen = 1;

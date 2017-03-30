@@ -4,6 +4,11 @@
 % Configuration and results are saved in a Matlab binary (.mat)
 % Algorithm can be run in headless mode
 
+% Author: Alexander Hagg
+% Bonn-Rhein-Sieg University of Applied Sciences (HBRS)
+% email: alexander.hagg@h-brs.de
+% Jan 2017; Last revision: 30-Mar-2017
+
 clear; clc; set(0,'DefaultFigureWindowStyle','docked');
 algo                        = default_params;
 results                     = [];

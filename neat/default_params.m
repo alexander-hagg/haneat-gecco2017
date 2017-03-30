@@ -19,7 +19,11 @@
 % CrossPer      75%
 % Reenable      25%
 %
-%%
+%% default_params - Default parameters for HA-NEAT
+% Author: Alexander Hagg
+% Bonn-Rhein-Sieg University of Applied Sciences (HBRS)
+% email: alexander.hagg@h-brs.de
+% Jan 2017; Last revision: 30-Mar-2017
 
 function p = default_params
 p.alg               = 'NEAT';
