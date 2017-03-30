@@ -29,8 +29,8 @@ p.parallel          = false;
 p.recurrent         = false; 
 
 % Algorithm Parameters
-p.maxGen            = 200;
-p.popSize           = 100;
+p.maxGen            = 20;
+p.popSize           = 20;
 p.run               = @(p)NEAT(p);
 
 % Speciation Parameters
