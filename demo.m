@@ -6,10 +6,13 @@
 
 clear; clc; set(0,'DefaultFigureWindowStyle','docked');
 algo                        = default_params;
-algo.data                   = get_folds(data_cancer, 3); % Set number of validation folds
 results                     = [];
 algo.num_replicates         = 2;
 algo.headless               = true;
+
+% Datasets: data_cancer, data_cholesterol, data_engine
+algo.data                   = get_folds(data_cancer, 3); % Set number of validation folds
+
 
 disp(['Dataset: ' algo.data.name]);
 for rep = 1:algo.num_replicates

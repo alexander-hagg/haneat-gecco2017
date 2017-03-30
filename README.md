@@ -3,8 +3,11 @@ Code release of "Evolving Parsimonious Networks by Mixing Activation Functions",
 
 Contents:
 
-Implementation of NEAT, producing feed forward networks with heterogeneous activation functions.
+Matlab implementation of NEAT, producing feed forward networks with heterogeneous activation functions.
+This code will be extended to allow recurrent networks in the near future.
 
+A demo.m script is provided, which includes a full experimental setup and saves the results to a binary file, 
+which can be read in Matlab 
 
 Abstract: 
 
